@@ -33,7 +33,7 @@ jobs:
     
     - name: Zip folder
       run: |
-        cd ..
+        cd /
         tar -zcvf artifact.tar.gz juice-shop
         ls
     - name: Upload a Build Artifact
